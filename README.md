@@ -1,5 +1,5 @@
 # RoboND-Map-My-World-Robot
-Udacity Robotics Software Engineer Nanodegree Term 2 Project: Map My World
+Udacity Robotics Software Engineer Nanodegree Term 2 Project: Map My World:
 
 RTAB-Map is the best solution for SLAM to develop robots that can map environments in 3D. These considerations come from RTAB-Map's speed and memory management, its custom developed tools for information analysis and, most importantly, the quality of the documentation. Being able to leverage RTAB-Map with our own robots will lead to a solid foundation for mapping and localization well. For this project we will be using the rtabmap_ros package, which is a ROS wrapper (API) for interacting with rtabmap. 
 
