@@ -13,3 +13,10 @@ Launch the RTAB-Map mapping node
 ``roslaunch slam_project mapping.launch``  
 Launch the RViz GUI:  
 ``roslaunch slam_project rviz.launch``  
+
+### Future Work - Applies RTAB Mapping to a real robot
+
+Intel aero flying car      | RTAB-Map
+:-------------------------:|:-------------------------:
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/qXfB4bgf53A/0.jpg)](https://youtu.be/qXfB4bgf53A) |  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/rF9DJFgUhv0/0.jpg)](https://youtu.be/rF9DJFgUhv0) 
+
