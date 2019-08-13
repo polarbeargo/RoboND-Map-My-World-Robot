@@ -68,3 +68,4 @@
       <remap from="scan"            to="/scan"/>
     </node>
   </group>
+  </launch>
