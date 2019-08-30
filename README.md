@@ -36,6 +36,13 @@ catkin_make
 source devel/setup.bash 
 roslaunch slam_project rviz.launch
 ``` 
+### Or use rtab_run script
+```
+cd /home/workspace/catkin_ws
+source devel/setup.bash
+cd src/slam_project
+./rtab_run
+```
 
 ### Future Work - Applies RTAB Mapping to a real robot
 
