@@ -79,11 +79,13 @@ In RTAB-Map, loop closure is detected using a bag of worlds approach which is co
 The Kitchen and dining scene was provided by Udacity as benchmark scene.
 \subsection{My World scene}
 You should describe what you achieved for localization in the project with the benchmark model and your own model. Includes charts and graphs show how parameters affect your performance. 
-\subsection{Robot configuration: tf tree}
+\subsection{Robot configuration: Transformation frame}
+Both of scenes are mapped by the designed robot which based on Udacity bot configuration equipped with RGB-D camera and laser scanner. RTAB-MAP algorithm will augment the depth measurements of the RGB-D camera with the measurements from the hokuyo laser scanner.
+
 \begin{figure}[thpb]
       \centering
       \includegraphics[width=\linewidth]{TransformFrames.png}
-      \caption{Robot transformation tree.}
+      \caption{Robot transformation frame.}
       \label{fig:robot1}
 \end{figure}
 \section{Results}
@@ -113,5 +115,6 @@ You should describe what you achieved for localization in the project with the b
 
 \bibliography{bib}
 \bibliographystyle{ieeetr}
-
+[2] The GraphSLAM Algorithm with Applications to Large-Scale Mapping of Urban Structures, Sebastian Thrun, Michael Montemerlo
+, Stanford AI Lab,Stanford University {thrun,mmde}@stanford.edu. THE INTERNATIONAL JOURNAL OF ROBOTICS RESEARCH / May–June 2006
 \end{document}
