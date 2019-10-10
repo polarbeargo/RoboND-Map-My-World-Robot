@@ -1,2 +1,0 @@
-/home/workspace/catkin_ws/build/CMakeFiles/edit_cache.dir
-/home/workspace/catkin_ws/build/CMakeFiles/rebuild_cache.dir
