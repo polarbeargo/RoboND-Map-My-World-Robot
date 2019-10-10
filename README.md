@@ -40,7 +40,7 @@ roslaunch slam_project rviz.launch
 ```
 cd /home/workspace/catkin_ws
 source devel/setup.bash
-cd src/slam_project
+cd src/slam_project/scripts
 ./rtab_run
 ```
 
