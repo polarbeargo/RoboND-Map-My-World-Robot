@@ -9,7 +9,6 @@ Create folder and Load model:
 ```
 mkdir ~/.gazebo
 curl -L https://s3-us-west-1.amazonaws.com/udacity-robotics/Term+2+Resources/P3+Resources/models.tar.gz | tar zx -C ~/.gazebo/
-
 ```
 Run the following commands below in separate terminals:  
 Launch the world in Gazebo:  
@@ -43,7 +42,11 @@ source devel/setup.bash
 cd src/slam_project/scripts
 ./rtab_run
 ```
-
+### RTAB-Map Visualization Tools - Databse Viewer  
+* After stop mapping.launch in terminal then we can run the following command:
+```
+rtabmap-databaseViewer ~/.ros/rtabmap.db
+```
 ### Future Work - Applies RTAB Mapping to a real robot
 
 Intel aero flying car      | RTAB-Map
