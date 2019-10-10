@@ -20,8 +20,8 @@ BUILD_SHARED_LIBS:BOOL=ON
 //List of ';' separated packages to exclude
 CATKIN_BLACKLIST_PACKAGES:STRING=
 
-//catkin devel space
-CATKIN_DEVEL_PREFIX:PATH=/home/workspace/catkin_ws/devel
+//No help, variable specified on the command line.
+CATKIN_DEVEL_PREFIX:UNINITIALIZED=/home/workspace/catkin_ws/devel
 
 //Catkin enable testing
 CATKIN_ENABLE_TESTING:BOOL=ON

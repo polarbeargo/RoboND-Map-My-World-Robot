@@ -34,7 +34,7 @@ from geometry_msgs.msg import Twist
 import sys, select, termios, tty
 
 msg = """
-Control Your Udacity Bot!
+Control Your Hsin Bot!
 ---------------------------
 Moving around:
    u    i    o
