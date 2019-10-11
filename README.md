@@ -1,7 +1,14 @@
 # RoboND-Map-My-World-Robot
 Udacity Robotics Software Engineer Nanodegree Term 2 Project: Map My World:
 
-RTAB-Map 's speed and memory management is the best solution for SLAM to develop robots and map environments in 3D for information analysis and the quality of the documentation. Being able to leverage RTAB-Map with our own robots will lead to a solid foundation for mapping and localization well. For this project, we will use the rtabmap_ros package, which is a ROS wrapper (API) for interacting with rtabmap. 
+[//]: # (Image References)
+
+[image1]: ./LATEX/databaseViewer.png
+[image2]: ./LATEX/rvizMapping.png
+[image3]: ./LATEX/suppliedEnvironment.png
+[image4]: ./LATEX/HsinBot.png
+
+RTAB-Map 's speed and memory management is the best solution for SLAM to develop robots and map environments in 3D for information analysis and the quality of the documentation. Being able to leverage RTAB-Map with our own robots will lead to a solid foundation for mapping and localization well. For this project, we will use the rtabmap_ros package, which is a ROS wrapper (API) for interacting with rtabmap. This project is intended to be completed in the Udacity Workspace or on Jetson TX2 and might encounter performance issue on personal laptop or the VM. If working on Jetson TX2, you could use `jetson_clocks.sh` script in the home folder to speed it up! 
 
 ### Running the Scripts
 
@@ -46,8 +53,14 @@ cd src/slam_project/scripts
 * After stop mapping.launch in terminal then we can run the following command:
 ```
 rtabmap-databaseViewer ~/.ros/rtabmap.db
-```
-### Future Work - Applies RTAB Mapping to a real robot
+```  
+![][image1]
+
+### Results:
+![][image3]
+![][image4]
+![][image2]
+### Future Work - Applies RTAB Mapping To A Real Robot:
 
 Intel aero flying car      | RTAB-Map
 :-------------------------:|:-------------------------:
